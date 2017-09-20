@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC132F601F71FF2C00DB11C7 /* JJXlog.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5315FF771F46EC820062AB25 /* JJXlog.mm */; };
+		FC132F611F71FF2C00DB11C7 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5315FF7E1F46EC820062AB25 /* AFNetworkReachabilityManager.m */; };
+		FC24BB4A1F72039000421EDB /* JJXlog.h in Headers */ = {isa = PBXBuildFile; fileRef = 5315FF761F46EC820062AB25 /* JJXlog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC24BB6F1F720CD200421EDB /* log_crypt.cc in Sources */ = {isa = PBXBuildFile; fileRef = 5315FF7A1F46EC820062AB25 /* log_crypt.cc */; };
+		FC24BB8B1F720DF700421EDB /* LogConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = FC24BB821F720DF700421EDB /* LogConfig.h */; };
+		FC24BB8C1F720DF700421EDB /* LogHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = FC24BB831F720DF700421EDB /* LogHelper.h */; };
+		FC24BB8D1F720DF700421EDB /* LogHelper.mm in Sources */ = {isa = PBXBuildFile; fileRef = FC24BB841F720DF700421EDB /* LogHelper.mm */; };
+		FC24BB8E1F720DF700421EDB /* LogUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = FC24BB851F720DF700421EDB /* LogUtil.h */; };
+		FC24BB8F1F720DF700421EDB /* LogUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FC24BB861F720DF700421EDB /* LogUtil.m */; };
+		FC24BBC41F7214D700421EDB /* UIButton+Observer.m in Sources */ = {isa = PBXBuildFile; fileRef = FC24BBC21F7214D700421EDB /* UIButton+Observer.m */; };
+		FC24BBC51F7214D700421EDB /* UIViewController+Observer.m in Sources */ = {isa = PBXBuildFile; fileRef = FC24BBC31F7214D700421EDB /* UIViewController+Observer.m */; };
+		FC24BBC81F7214F600421EDB /* UIButton+Observer.h in Headers */ = {isa = PBXBuildFile; fileRef = FC24BBC61F7214F600421EDB /* UIButton+Observer.h */; };
+		FC24BBC91F7214F600421EDB /* UIViewController+Observer.h in Headers */ = {isa = PBXBuildFile; fileRef = FC24BBC71F7214F600421EDB /* UIViewController+Observer.h */; };
+		FC4433EA1F724A21005DD07B /* libmars-log-iphone.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC4433E71F724A0A005DD07B /* libmars-log-iphone.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC4433E61F724A0A005DD07B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC4433E01F724A0A005DD07B /* mars-log-iphone.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3170A027177887B0004F5DDA;
+			remoteInfo = "mars-log-iphone";
+		};
+		FC4433E81F724A1E005DD07B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC4433E01F724A0A005DD07B /* mars-log-iphone.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 3170A026177887B0004F5DDA;
+			remoteInfo = "mars-log-iphone";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5315FF5E1F46EC680062AB25 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5315FF601F46EC680062AB25 /* libMarsLog4.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMarsLog4.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5315FF761F46EC820062AB25 /* JJXlog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJXlog.h; sourceTree = "<group>"; };
+		5315FF771F46EC820062AB25 /* JJXlog.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = JJXlog.mm; sourceTree = "<group>"; };
+		5315FF791F46EC820062AB25 /* decode_mars_log_file.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = decode_mars_log_file.py; sourceTree = "<group>"; };
+		5315FF7A1F46EC820062AB25 /* log_crypt.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = log_crypt.cc; sourceTree = "<group>"; };
+		5315FF7B1F46EC820062AB25 /* log_crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = log_crypt.h; sourceTree = "<group>"; };
+		5315FF7D1F46EC820062AB25 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		5315FF7E1F46EC820062AB25 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		FC24BB4E1F72050B00421EDB /* libcomm.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcomm.a; path = "../../../../Library/Developer/Xcode/DerivedData/MarsXlogTest-bjhrgwsifxzpvzfzwyjiyznhleao/Build/Products/Debug-iphonesimulator/libcomm.a"; sourceTree = "<group>"; };
+		FC24BB4F1F72050B00421EDB /* liblog.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblog.a; path = "../../../../Library/Developer/Xcode/DerivedData/MarsXlogTest-bjhrgwsifxzpvzfzwyjiyznhleao/Build/Products/Debug-iphonesimulator/liblog.a"; sourceTree = "<group>"; };
+		FC24BB671F72086800421EDB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FC24BB691F72088C00421EDB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FC24BB821F720DF700421EDB /* LogConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogConfig.h; sourceTree = "<group>"; };
+		FC24BB831F720DF700421EDB /* LogHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogHelper.h; sourceTree = "<group>"; };
+		FC24BB841F720DF700421EDB /* LogHelper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LogHelper.mm; sourceTree = "<group>"; };
+		FC24BB851F720DF700421EDB /* LogUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogUtil.h; sourceTree = "<group>"; };
+		FC24BB861F720DF700421EDB /* LogUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogUtil.m; sourceTree = "<group>"; };
+		FC24BBC21F7214D700421EDB /* UIButton+Observer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Observer.m"; sourceTree = "<group>"; };
+		FC24BBC31F7214D700421EDB /* UIViewController+Observer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Observer.m"; sourceTree = "<group>"; };
+		FC24BBC61F7214F600421EDB /* UIButton+Observer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Observer.h"; sourceTree = "<group>"; };
+		FC24BBC71F7214F600421EDB /* UIViewController+Observer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Observer.h"; sourceTree = "<group>"; };
+		FC4433E01F724A0A005DD07B /* mars-log-iphone.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "mars-log-iphone.xcodeproj"; path = "../mars-master4/mars/mars-log-iphone.xcodeproj"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5315FF5D1F46EC680062AB25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC4433EA1F724A21005DD07B /* libmars-log-iphone.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5315FF571F46EC680062AB25 = {
+			isa = PBXGroup;
+			children = (
+				FC4433E01F724A0A005DD07B /* mars-log-iphone.xcodeproj */,
+				5315FF621F46EC680062AB25 /* MarsLog4 */,
+				5315FF611F46EC680062AB25 /* Products */,
+				FC24BB4D1F72050B00421EDB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5315FF611F46EC680062AB25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5315FF601F46EC680062AB25 /* libMarsLog4.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5315FF621F46EC680062AB25 /* MarsLog4 */ = {
+			isa = PBXGroup;
+			children = (
+				5315FF761F46EC820062AB25 /* JJXlog.h */,
+				5315FF771F46EC820062AB25 /* JJXlog.mm */,
+				FC24BB811F720DF700421EDB /* Component */,
+				5315FF781F46EC820062AB25 /* PublicComponentV2 */,
+				5315FF7C1F46EC820062AB25 /* Reachability */,
+			);
+			path = MarsLog4;
+			sourceTree = "<group>";
+		};
+		5315FF781F46EC820062AB25 /* PublicComponentV2 */ = {
+			isa = PBXGroup;
+			children = (
+				5315FF791F46EC820062AB25 /* decode_mars_log_file.py */,
+				5315FF7A1F46EC820062AB25 /* log_crypt.cc */,
+				5315FF7B1F46EC820062AB25 /* log_crypt.h */,
+			);
+			path = PublicComponentV2;
+			sourceTree = "<group>";
+		};
+		5315FF7C1F46EC820062AB25 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				5315FF7D1F46EC820062AB25 /* AFNetworkReachabilityManager.h */,
+				5315FF7E1F46EC820062AB25 /* AFNetworkReachabilityManager.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		FC24BB4D1F72050B00421EDB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC24BB691F72088C00421EDB /* UIKit.framework */,
+				FC24BB671F72086800421EDB /* Foundation.framework */,
+				FC24BB4E1F72050B00421EDB /* libcomm.a */,
+				FC24BB4F1F72050B00421EDB /* liblog.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC24BB811F720DF700421EDB /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				FC24BB821F720DF700421EDB /* LogConfig.h */,
+				FC24BB831F720DF700421EDB /* LogHelper.h */,
+				FC24BB841F720DF700421EDB /* LogHelper.mm */,
+				FC24BBC61F7214F600421EDB /* UIButton+Observer.h */,
+				FC24BBC71F7214F600421EDB /* UIViewController+Observer.h */,
+				FC24BBC21F7214D700421EDB /* UIButton+Observer.m */,
+				FC24BBC31F7214D700421EDB /* UIViewController+Observer.m */,
+				FC24BB851F720DF700421EDB /* LogUtil.h */,
+				FC24BB861F720DF700421EDB /* LogUtil.m */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		FC4433E11F724A0A005DD07B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC4433E71F724A0A005DD07B /* libmars-log-iphone.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FC24BB491F72038700421EDB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC24BBC81F7214F600421EDB /* UIButton+Observer.h in Headers */,
+				FC24BB4A1F72039000421EDB /* JJXlog.h in Headers */,
+				FC24BB8B1F720DF700421EDB /* LogConfig.h in Headers */,
+				FC24BB8E1F720DF700421EDB /* LogUtil.h in Headers */,
+				FC24BBC91F7214F600421EDB /* UIViewController+Observer.h in Headers */,
+				FC24BB8C1F720DF700421EDB /* LogHelper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5315FF5F1F46EC680062AB25 /* MarsLog4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5315FF691F46EC680062AB25 /* Build configuration list for PBXNativeTarget "MarsLog4" */;
+			buildPhases = (
+				5315FF5C1F46EC680062AB25 /* Sources */,
+				5315FF5D1F46EC680062AB25 /* Frameworks */,
+				5315FF5E1F46EC680062AB25 /* CopyFiles */,
+				FC24BB491F72038700421EDB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC4433E91F724A1E005DD07B /* PBXTargetDependency */,
+			);
+			name = MarsLog4;
+			productName = MarsLog4;
+			productReference = 5315FF601F46EC680062AB25 /* libMarsLog4.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5315FF581F46EC680062AB25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = zhudong;
+				TargetAttributes = {
+					5315FF5F1F46EC680062AB25 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5315FF5B1F46EC680062AB25 /* Build configuration list for PBXProject "MarsLog4" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5315FF571F46EC680062AB25;
+			productRefGroup = 5315FF611F46EC680062AB25 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = FC4433E11F724A0A005DD07B /* Products */;
+					ProjectRef = FC4433E01F724A0A005DD07B /* mars-log-iphone.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				5315FF5F1F46EC680062AB25 /* MarsLog4 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		FC4433E71F724A0A005DD07B /* libmars-log-iphone.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libmars-log-iphone.a";
+			remoteRef = FC4433E61F724A0A005DD07B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5315FF5C1F46EC680062AB25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC132F601F71FF2C00DB11C7 /* JJXlog.mm in Sources */,
+				FC24BBC51F7214D700421EDB /* UIViewController+Observer.m in Sources */,
+				FC24BB6F1F720CD200421EDB /* log_crypt.cc in Sources */,
+				FC24BB8D1F720DF700421EDB /* LogHelper.mm in Sources */,
+				FC24BBC41F7214D700421EDB /* UIButton+Observer.m in Sources */,
+				FC24BB8F1F720DF700421EDB /* LogUtil.m in Sources */,
+				FC132F611F71FF2C00DB11C7 /* AFNetworkReachabilityManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC4433E91F724A1E005DD07B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "mars-log-iphone";
+			targetProxy = FC4433E81F724A1E005DD07B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5315FF671F46EC680062AB25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5315FF681F46EC680062AB25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5315FF6A1F46EC680062AB25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/MarsTest2-ghsyroyzekclkxbxkrolwbigfdrs/Build/Products/Debug-iphonesimulator/usr/local/include/marsLog\"/**",
+					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/MarsTest2-ghsyroyzekclkxbxkrolwbigfdrs/Build/Products/Debug-iphonesimulator/usr/local/include/marsLog/Common\"/**",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5315FF6B1F46EC680062AB25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/MarsTest2-ghsyroyzekclkxbxkrolwbigfdrs/Build/Products/Debug-iphonesimulator/usr/local/include/marsLog\"/**",
+					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/MarsTest2-ghsyroyzekclkxbxkrolwbigfdrs/Build/Products/Debug-iphonesimulator/usr/local/include/marsLog/Common\"/**",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5315FF5B1F46EC680062AB25 /* Build configuration list for PBXProject "MarsLog4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5315FF671F46EC680062AB25 /* Debug */,
+				5315FF681F46EC680062AB25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5315FF691F46EC680062AB25 /* Build configuration list for PBXNativeTarget "MarsLog4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5315FF6A1F46EC680062AB25 /* Debug */,
+				5315FF6B1F46EC680062AB25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5315FF581F46EC680062AB25 /* Project object */;
+}
